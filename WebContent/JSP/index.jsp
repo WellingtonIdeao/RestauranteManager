@@ -27,10 +27,10 @@
 		
 		<div class="index">
 		<h2>Bem Vindo</h2>
-		<table>
+		<table width="100%" border="0" align="right">
 			<tr>
-        		<td colspan="2" style="text-align: right"><%=userLogado%>
-        		<a href="logoutServlet" target="_self" class="btn">Sair</a></td>
+        		<td width="50%" colspan="2" style="text-align: left"><%=userLogado.getNome()%></td>
+        		<td width="50%" align="right"><a href="logoutServlet" target="_self" class="btn">Sair</a></td>
       		</tr>
       	</table>	
 			
