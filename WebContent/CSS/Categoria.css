@@ -27,7 +27,7 @@ margin-bottom:15px;
 
 .Categorias{
 margin:70px auto;
-height:200px;
+height:200px auto;
 border:solid 1px #636363;
 padding:15px;
 }

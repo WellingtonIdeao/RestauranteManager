@@ -23,16 +23,16 @@
 			<table width="100%" border="0" cellpadding="2" cellspacing="5">
  				<tbody>
     				<tr>
-      					<td width="11%" align="left">Nome:</td>
-      					<td width="89%" align="left"><input type="text" name="nome" value="<%=promocao == null ? "" : promocao.getDescricao()%>"></td>
+      					<td width="50%" align="right">Nome:</td>
+      					<td width="50%" align=""><input type="text" name="nome" value="<%=promocao == null ? "" : promocao.getDescricao()%>"></td>
     				</tr>
     				<tr>
-    					<td align="left">Desconto (%):</td>
-      					<td align="left"><input type="text" name="desconto" value="<%=promocao == null ? "" : promocao.getDesconto()%>"></td>
+    					<td align="right">Desconto (%):</td>
+      					<td><input type="text" name="desconto" value="<%=promocao == null ? "" : promocao.getDesconto()%>"></td>
     				</tr>
     				<tr>
-    					<td align="left"><input type="submit" value="Salvar" target="_self" class="btn"></td>
-    					<td align="left"><a href="listarPromocaoServlet" target="_self" class="btn">Voltar</a></td>
+    					<td align="right"><input type="submit" value="Salvar" target="_self" class="btn"></td>
+    					<td><a href="listarPromocaoServlet" target="_self" class="btn">Voltar</a></td>
     				</tr>
   				</tbody>
 			</table>
